@@ -6,12 +6,12 @@
 -- Target Devices	: Spartan 6
 -- Tool versions	: ISE project navigator version 14.7 (nt64) 
 -- Description: 
--- 		Transmitting Gas leakage data and temperature  data through WiFi involves communication with cloud server using IP Address
---      We used an open source data logger website thingspeak.com to reduce the implementation cost. 
---      Once we created our channel for entering the data into web site, the channel will be allocated with one API key
----     We have created one thingspeak channel and used field 1 for Gas data and field 2 Temperature sensor ouput data
---      thingspeak server will automatically plots the data retrieving from the field which we have entered an integer data of gas and temperature output. 
----     Parallaly we can check the output from LCD display.
+-- Transmitting Gas leakage data and temperature  data through WiFi involves communication with cloud server using IP Address
+-- We used an open source data logger website thingspeak.com to reduce the implementation cost. 
+-- Once we created our channel for entering the data into web site, the channel will be allocated with one API key
+-- We have created one thingspeak channel and used field 1 for Gas data and field 2 Temperature sensor ouput data
+ thingspeak server will automatically plots the data retrieving from the field which we have entered an integer data of gas and temperature output. 
+--- Parallaly we can check the output from LCD display.
 -- Revision			: 1.0.0
 ----------------------------------------------------------------------------------
 
